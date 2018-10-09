@@ -1,6 +1,5 @@
 node {
    echo 'Hello World'
-   stages {
       stage { "checkout"
    echo "git url"
             }
@@ -8,4 +7,4 @@ node {
   echo "build"
             }
 }
-}
+
