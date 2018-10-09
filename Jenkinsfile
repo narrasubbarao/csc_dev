@@ -1,8 +1,11 @@
 node {
    echo 'Hello World'
-   stage "checkout"
+   stages {
+      stage { "checkout"
    echo "git url"
-   
-  stage "build"
+            }
+      stage {"build"
   echo "build"
+            }
+}
 }
