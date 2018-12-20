@@ -1,10 +1,6 @@
-node {
-   echo 'Hello World'
-      stage "checkout"
-   echo "git url"
-            
-      stage "build"
-  echo "build"
-            
+https://github.com/narrasubbarao/csc_dev.git
+   
+   node {
+  git url: 'https://github.com/narrasubbarao/csc_dev.git'
+  
 }
-
