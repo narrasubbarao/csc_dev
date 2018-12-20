@@ -1,6 +1,4 @@
-https://github.com/narrasubbarao/csc_dev.git
-   
-   node {
+  node {
   git url: 'https://github.com/narrasubbarao/csc_dev.git'
   
 }
